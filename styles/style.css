@@ -96,7 +96,6 @@
 }
 
 .two-columns__main-text {
-  margin-bottom: 30px;
   width: 80%;
   min-width: 784px;
   font-size: 24px;
@@ -106,6 +105,7 @@
 }
 .two-columns__paragraph {
   margin-top: 0;
+  margin-bottom: 30px;
 }
 
 .two-columns__paragraph:last-child {
