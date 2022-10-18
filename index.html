@@ -1,14 +1,11 @@
 <!DOCTYPE html>
 <html lang="ru">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles/normalize.css">
-  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="./pages/index.css">
   <title>Научиться учиться</title>
 </head>
-
 <body class="page">
   <header class="header">
     <img class="logo logo_place_header" src="./images/logo_place_header.svg" alt="Лого Яндекс Практикум">
@@ -16,7 +13,7 @@
     <p class="header__subtitle">Какие современные и эффективные подходы к обучению вы можете использовать в своей
       жизни?<a class="header__link" href="https://habr.com/ru/post/38838/" target="_blank"> Узнать→</a></p>
     <img class="header__main-illustration" src="./images/header-image.png" alt="Иллюстрация">
-    <div class="header__square-pic"></div>
+    <div class="header__square-pic rotation"></div>
   </header>
   <main class="main">
     <section class="description">
@@ -33,6 +30,39 @@
           </p>
           <p class="two-columns__paragraph">Конкретные техники и упражнения помогают изменить подход к обучению,
             сделать его эффективным и захватывающим. Эти же техники применяются на примере обучения в Практикуме.</p>
+        </div>
+      </div>
+    </section>
+    <section class="techniques">
+      <h2 class="section-title">Техники обучения</h2>
+      <p class="section-subtitle">Пять практик от Барбары Оакли</p>
+      <div class="cards">
+        <div class="cards__item">
+          <img class="cards__image" src="./images/cards-attention.png" alt="Книга"></img>
+          <h3 class="cards__title">Два вида внимания</h3>
+          <p class="cards__description">Глубокие знания возникают, если чередовать сфокусированное и рассеянное мышление.</p>
+        </div>
+        <div class="cards__item">
+          <img class="cards__image" src="./images/cards-recall.png" alt="Статуя"></img>
+          <h3 class="cards__title">Recall</h3>
+          <p class="cards__description">Вспоминайте изученное — это позволит соединить разрозненные порции памяти.</p>
+        </div>
+        <div class="cards__item">
+          <img class="cards__image" src="./images/cards-interliving.png" alt="Достопримечательность"></img>
+          <h3 class="cards__title">Интерливинг</h3>
+          <p class="cards__description">Изучайте несколько навыков одновременно, они обогащают друг друга.</p>
+        </div>
+      </div>
+      <div class="cards">
+        <div class="cards__item">
+          <img class="cards__image" src="./images/cards-question.png" alt="Комната"></img>
+          <h3 class="cards__title">Вопросы</h3>
+          <p class="cards__description">Слушая преподавателя, придумывайте хороший вопрос, который вас действительно волнует.</p>
+        </div>
+        <div class="cards__item">
+          <img class="cards__image" src="./images/cards-competence.png" alt="Стопка книг"></img>
+          <h3 class="cards__title">Иллюзия компетентности</h3>
+          <p class="cards__description">Повторите про себя, запишите, расскажите другу: вам только кажется, что вы владеете новой темой.</p>
         </div>
       </div>
     </section>
@@ -152,15 +182,14 @@
         <h3 class="footer__column-heading">Соцсети</h3>
         <nav class="footer__column-links">
           <a class="footer__column-link " href="https://www.youtube.com/c/yandex/videos " target="_blank">
-            <img class="footer__social-icon" src="./youtube-icon.svg" alt="Ютуб">Youtube</a>
+            <img class="footer__social-icon" src="./images/youtube-icon.svg" alt="Ютуб">Youtube</a>
           <a class="footer__column-link" href="https://vk.com/yandex" target="_blank">
             <img class="footer__social-icon" src="./images/vk_color_white.svg" alt="ВК">Вконтакте</a>
           <a class="footer__column-link" href="https://www.tiktok.com/@yandex.music" target="_blank">
-            <img class="footer__social-icon" src="./tiktok-icon.svg" alt="ТТ">Tiktok</a>
+            <img class="footer__social-icon" src="./images/tiktok-icon.svg" alt="ТТ">Tiktok</a>
         </nav>
       </div>
     </div>
   </footer>
 </body>
-
 </html>
